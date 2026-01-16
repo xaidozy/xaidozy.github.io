@@ -104,8 +104,6 @@ body {
 	user-select: none;
 
 	/* 背景设置 */
-	color: #fff;
-	background-color: #5ff;
 	background-attachment: fixed;
 	background-size: cover;
 	background-blend-mode: hard-light;
