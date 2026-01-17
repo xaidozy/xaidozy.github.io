@@ -1,4 +1,4 @@
-/* 自己去设置滚动吧 */
+/* 要显示滚动条需要加 scrollbar 类样式 */
 /* =========================================
    CSS Reset and Global Styles
    Project: xaidozy
@@ -9,7 +9,8 @@
    ======================= */
 @font-face {
 	font-family: 'xaifont';
-	src: url('/fonts/xaifont.woff2') format('woff2'),
+	src:
+		url('/fonts/xaifont.woff2') format('woff2'),
 		url('https://xaidozy.github.io/fonts/xaifont.woff2') format('woff2');
 	font-display: swap;
 }
@@ -57,10 +58,12 @@
 	-webkit-font-smoothing: antialiased; /* WebKit字体抗锯齿 */
 	-moz-osx-font-smoothing: grayscale; /* Firefox字体抗锯齿 */
 
-	--for-font: xaifont, Inter, system-ui, Avenir, Helvetica, Arial, ui-sans-serif,
-		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
-	--for-code-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
-		'Courier New', monospace;
+	--for-font:
+		xaifont, Inter, system-ui, Avenir, Helvetica, Arial, ui-sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
+	--for-code-font:
+		ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+		monospace;
 }
 
 /* HTML 基础设置 
@@ -106,7 +109,7 @@ body {
 	/* 背景设置 */
 	background-attachment: fixed;
 	background-size: cover;
-	background-blend-mode: hard-light;
+	/* background-blend-mode: hard-light; */
 }
 
 /* 根元素 */
